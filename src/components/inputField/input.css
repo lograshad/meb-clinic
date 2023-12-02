@@ -1,0 +1,50 @@
+.input-container {
+    line-height: 100%;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+label {
+    color: #475467;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    padding: 0;
+    /* margin-bottom: 0.25em; */
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #EAECF0;
+    margin-top: 0px;
+    padding: 16px;
+}
+
+input::placeholder {
+    font-weight: 500;
+    color: #98A2B3;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* For modern browsers that support the appearance property */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.input-container .header {
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+}
+.input-container .error-msg {
+    color: red;
+    font-size: .4em;
+    line-height: 100%;
+}

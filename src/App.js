@@ -1,26 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
   Route,
-  Outlet,
+  Routes,
 } from "react-router-dom";
 import HomeScreen from './screens/home-page/home';
+import Form from './screens/appointment-form/form';
+
+
+// const About = React.lazy(() => import("./pages/About"));
+// const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 
 function App() {
   const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route
-        index
-        path="/"
-        element={
+    [
+      {
+        path: "/",
+        element: (
           <HomeScreen />
-        }
-      >
-      </Route>
-    )
+        ),
+      },
+      {
+        path: "/book_appointment",
+        element: (<Form />),
+      },
+    ]
   )
   return (
     <div className="App">
