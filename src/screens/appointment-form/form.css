@@ -1,0 +1,39 @@
+.form-wrapper {
+    max-width: 40%;
+    margin: auto;
+    margin-top: 25vh;
+    font-size: 32px;
+}
+
+.form-wrapper h3 {
+    color: #101828;
+    font-size: 0.67em;
+    font-weight: 700;
+}
+
+.form-wrapper p {
+    color: #475467;
+    font-size: .5em;
+    font-weight: 400;
+}
+
+.form-wrapper .tel {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+.form-wrapper button {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 14px;
+    font-size: .5em;
+    font-weight: 500;
+    margin-top: 72px;
+    cursor: pointer;
+}
+.form-wrapper button:disabled {
+    opacity: .4;
+}
