@@ -145,6 +145,12 @@
     gap: .8em;
     align-items: center;
 }
+.services-wrapper .our-services-stn .flex-container ul li:nth-child(8) svg{
+    transform: scale(1.8);
+}
+.services-wrapper .our-services-stn .flex-container ul li:nth-child(8) {
+    padding-left: 4px;
+}
 
 .services-wrapper .services-stn {
     display: flex;
@@ -386,7 +392,7 @@
     line-height: 180%;
     /* max-width: 40%; */
 }
-.about-stn .flex-container button {
+.about-stn .flex-container a {
     margin-top: 1.7em;
     padding: 0;
     outline: none;
@@ -397,6 +403,7 @@
     font-size: 0.625em;
     font-weight: 700;
     cursor: pointer;
+    display: block;
 }
 
 .testimonials h3 {

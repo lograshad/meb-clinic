@@ -22,18 +22,27 @@
     text-decoration: none;
     font-weight: 700;
 }
-.form-wrapper button {
+.form-wrapper .form-btn {
     background-color: var(--primary-color);
-    border-radius: 5px;
     border: none;
     color: white;
     width: 100%;
-    padding: 14px;
-    font-size: .5em;
-    font-weight: 500;
-    margin-top: 72px;
+    margin-top: 62px;
+    padding: 0;
     cursor: pointer;
+    margin-bottom: 48px;
 }
-.form-wrapper button:disabled {
+.form-wrapper .form-btn:disabled {
     opacity: .4;
+}
+.form-wrapper button {
+    width: 100%;
+    background-color: var(--primary-color);
+    border: none;
+    color: inherit;
+    padding: 14px;
+    font-size: .8em;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
 }

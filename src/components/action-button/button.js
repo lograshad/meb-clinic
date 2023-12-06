@@ -3,7 +3,7 @@ import "./button.css";
 
 const Button = ({child}) => {
     return ( 
-        <Link to="book_appointment" className="button-wrapper">
+        <Link to="/book_appointment" className="button-wrapper">
             {child}
         </Link>
      );

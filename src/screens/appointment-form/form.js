@@ -5,6 +5,7 @@ import Navbar from "../../components/navbar/navbar";
 import { BookAppointmentSchema } from "../../utiliities/schema";
 import "./form.css";
 import ReactWhatsapp from 'react-whatsapp';
+import Footer from "../../components/footer/footer";
 
 const Form = () => {
     const [nameW, setName] = useState('');
@@ -36,15 +37,6 @@ const Form = () => {
         <div className="form-container">
             <Navbar />
             <div className="form-wrapper">
-                <ReactWhatsapp number="+2349063734237" message={`
-            Hello, My name is ${nameW}
-I would like to book an appointment
-Age - ${ageW} 
-Occupation - ${occupationW}
-Email - ${emailW}
-Phone Number - ${phoneNumberW}
-`}>yo</ReactWhatsapp>
-
                 <h3>Book an appointment</h3>
                 <p>
                     Kindly call this number <a href="tel:+2348033235795" className="tel">+234 803 323 5795</a> to book an appointment
@@ -97,9 +89,19 @@ Phone Number - ${phoneNumberW}
                         placeholder="09045689321"
                     />
                     {console.log(isValid)}
-                    <button type="submit" disabled={!isValid}>Book an appointment</button>
+                    <button type="submit" disabled={!isValid} className="form-btn">
+                        <ReactWhatsapp number="+2349063734237" message={`
+            Hello, My name is ${nameW}
+I would like to book an appointment
+Age - ${ageW} 
+Occupation - ${occupationW}
+Email - ${emailW}
+Phone Number - ${phoneNumberW}
+`}>Book an Appointment</ReactWhatsapp>
+                    </button>
                 </form>
             </div>
+            <Footer/>
         </div>
     );
 }
