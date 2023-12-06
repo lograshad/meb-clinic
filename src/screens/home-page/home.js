@@ -3,6 +3,7 @@ import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
 import Reviews from "../../components/reviews/reviews";
 import "./home.css";
+import { Link } from "react-router-dom";
 
 const HomeScreen = () => {
     return (
@@ -182,7 +183,7 @@ const HomeScreen = () => {
                     <div className="placeholder"></div>
                     <div className="text-content-container">
                         <article>MEB Eye Clinic is a family-owned optometry clinic with two-walk-in-locations in Lagos, the economic hub of Nigeria. Founded in 1993, Meb Eye Clinic was born out of thee resolve to provide the best quality eye care services in Nigeria.</article>
-                        <button>Learn More</button>
+                        <Link to="/about_us">Learn More</Link>
                     </div>
                 </div>
             </div>

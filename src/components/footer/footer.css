@@ -46,6 +46,12 @@
     align-items: center;
     gap: 1em;
 }
+.footer-container .top .footer-stns li:nth-child(3) svg {
+    transform: scale(1.7);
+}
+.footer-container .top .footer-stns li:nth-child(3) {
+    padding-left: 4px;
+}
 
 .footer-container .top .footer-stns li .address-group-wrapper {
     display: flex;

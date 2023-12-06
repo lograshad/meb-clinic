@@ -18,4 +18,3 @@ reportWebVitals();
 
 // location focus nav color and navigation
 // fix svg react errors
-// fix svg align issues
