@@ -65,3 +65,48 @@
     font-size: 0.4375em;
     font-weight: 400;
 }
+
+/* media queries */
+@media (max-width: 545px) { 
+.reviews-slide {
+    display: block;
+    white-space: nowrap;
+    animation: none;
+}
+
+.review-card {
+    border-radius: 5px;
+    border: 1px solid #EAECF0;
+    padding: 1.166667em 2em;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1.666667em;
+}
+.review-card:hover {
+    scale: 1;
+    transition: none;
+}
+.review-card .top {
+    display: flex;
+    gap: 1em;
+}
+.review-card .top span {
+    font-size: 1em;
+    font-weight: 700;
+}
+.review-card .middle {
+    font-size: 1em;
+    margin: .9166667em 0;
+    white-space: normal;
+}
+.review-card .bottom {
+    gap: 1em;
+}
+.review-card .bottom .reviewer-details .name {
+    font-size: 1em;
+}
+.review-card .bottom .reviewer-details .occupation {
+    font-size: 1em;
+}
+
+}

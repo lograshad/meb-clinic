@@ -46,3 +46,43 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 851px) {
+    .form-wrapper {
+        font-size: 24px;
+    }
+}
+@media (max-width: 500px) {
+    .form-wrapper {
+        font-size: 12px;
+    }
+}
+@media (max-width: 700px) {
+    .form-wrapper {
+        max-width: 90%;
+        margin: auto;
+        margin-top: 13vh;
+        font-size: 18px;
+    }
+    
+.form-wrapper h3 {
+    font-size: 1.33em;
+}
+
+.form-wrapper p {
+    font-size: 1em;
+    margin-bottom: 2.6667em;
+}
+
+.form-wrapper .form-btn {
+    margin-top: 4.66667em;
+    margin-bottom: 6.9166667em;
+}
+.form-wrapper button {
+    padding: 1.16667em;
+    font-size: 1em;
+}
+.form-container .footer-container{
+    display: none;
+}
+}

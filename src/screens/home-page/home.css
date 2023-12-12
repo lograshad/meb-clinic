@@ -87,7 +87,6 @@
 
 .home-screen-container .hero-stn .hero-img-wrapper img {
     width: 100%;
-    background-color: red;
 }
 
 .hero-stn .action-buttons .button-wrapper {
@@ -145,9 +144,11 @@
     gap: .8em;
     align-items: center;
 }
-.services-wrapper .our-services-stn .flex-container ul li:nth-child(8) svg{
+
+.services-wrapper .our-services-stn .flex-container ul li:nth-child(8) svg {
     transform: scale(1.8);
 }
+
 .services-wrapper .our-services-stn .flex-container ul li:nth-child(8) {
     padding-left: 4px;
 }
@@ -319,6 +320,7 @@
     font-size: 0.5625em;
     font-weight: 400;
     color: white;
+    text-align: center;
 }
 
 .appointment-card {
@@ -351,10 +353,12 @@
 .appointment-card-btn {
     font-size: .5em;
 }
+
 .about-stn {
     padding-top: 5em;
     margin-top: -2em;
 }
+
 .about-stn h3 {
     font-size: 1em;
     font-weight: 600;
@@ -384,6 +388,7 @@
     background: #F6F6F6;
     height: 550px;
 }
+
 .about-stn .flex-container article {
     font-size: 0.6em;
     font-weight: 400;
@@ -392,6 +397,7 @@
     line-height: 180%;
     /* max-width: 40%; */
 }
+
 .about-stn .flex-container a {
     margin-top: 1.7em;
     padding: 0;
@@ -435,4 +441,356 @@
     width: 20px;
     height: 3px;
     background-color: var(--primary-color);
+}
+
+/* media queries 1180px */
+
+@media (max-width: 1180px) {
+
+    .services-wrapper .services-stn {
+        padding: 5.125em 4.5vw 0;
+    }
+
+    .services-wrapper .about-cards {
+        margin-right: 2vw;
+    }
+
+    .services-wrapper .about-cards::before {
+        content: '';
+        position: absolute;
+        left: -6%;
+        top: 10%;
+    }
+
+    .appointment-card {
+        display: block;
+    }
+
+    .appointment-card-btn {
+        margin-top: 2em;
+    }
+
+    .services-wrapper .our-services-stn .flex-container {
+        padding: .3em 12.5vw;
+    }
+}
+
+/* media queries 820px - mobile view */
+@media (max-width: 851px) {
+    .home-screen-container {
+        font-size: 24px;
+    }
+}
+@media (max-width: 500px) {
+    .home-screen-container {
+        font-size: 12px;
+    }
+}
+
+/* mobile view */
+@media (max-width: 700px) {
+    .home-screen-container {
+        font-size: 18px;
+    }
+
+    #blue-lines img {
+        max-width: 100%;
+    }
+
+    .pre-header {
+        font-size: .6666667em;
+        margin-bottom: -1.9em;
+        margin-top: 1.1111em;
+    }
+
+}
+@media (max-width: 500px) {
+    .home-screen-container {
+        font-size: 12px;
+    }
+    .pre-header {
+        font-size: 1em;
+        margin-bottom: 0em;
+        margin-top: 3.5111em;
+    }
+}
+
+@media (max-width: 545px) {
+    .home-screen-container .hero-stn .text-stn p {
+        max-width: 87%;
+        margin-top: 1.3em;
+        line-height: 171.429%;
+        margin-bottom: 1.25em;
+        font-size: 1.16667em;
+    }
+    .about-stn .flex-container .img-wrapper {
+        width: 15.666em;
+    }
+    .about-stn .flex-container .img-wrapper img{
+        width: 100%;
+    }
+    .hero-stn .action-buttons {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        margin: auto;
+        gap: 1.333em;
+    }
+    .hero-stn .action-buttons .button-wrapper {
+        font-size: 1.16667em;
+    }
+    
+    .hero-stn .action-buttons button {
+        font-size: 1.166667em;
+        padding: 1em;
+    }
+    .home-screen-container .hero-stn .hero-img-wrapper {
+        margin-top: 2.5em;
+        margin-bottom: 5.5em;
+    }
+    .services-wrapper .our-services-stn h3 {
+        font-size: 1.6666667em;
+    }
+    .services-wrapper .our-services-stn .about-desc {
+        font-size: 1.166667em;
+        text-align: center;
+        max-width: 85%;
+        margin: auto;
+    }
+    
+    .services-wrapper .our-services-stn .flex-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        /* gap: 10vw; */
+        /* justify-content: space-between; */
+        padding: 0;
+    }
+
+    .services-wrapper .our-services-stn .flex-container .img-wrapper {
+        width: 80vw;
+        margin: auto;
+        margin-bottom: 3.444em;
+    }
+
+    .services-wrapper .our-services-stn .flex-container .img-wrapper img {
+        width: 100%;
+    }
+
+    .services-wrapper .our-services-stn .flex-container .services-offered {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .services-wrapper .our-services-stn .flex-container ul {
+        list-style: none;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .services-wrapper .our-services-stn .flex-container ul li {
+        font-size: .7em;
+    }
+
+    .services-wrapper .our-services-stn .flex-container ul li:nth-child(8) svg {
+        transform: scale(1.3);
+    }
+
+    .services-wrapper .our-services-stn .flex-container ul li:nth-child(8) {
+        padding-left: 2px;
+    }
+
+    .services-wrapper .services-stn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: transparent;
+        padding: 0;
+    }
+
+    .services-wrapper .services-stn h3 {
+        text-align: center;
+    }
+
+    .services-wrapper .services-stn h3::before {
+        top: -10%;
+        left: -20%;
+    }
+
+    .services-wrapper .about-cards {
+        margin-right: 0em;
+        background-color: #F6FAFE;
+        width: 100%;
+        padding: 1em;
+        justify-content: center;
+        margin-bottom: 4.83333em;
+    }
+
+    .services-wrapper .about-cards::before {
+        content: '';
+        width: 55vw;
+        height: 11.75em;
+        position: absolute;
+        left: -20%;
+        top: 10%;
+        background-color: transparent;
+    }
+
+    .services-wrapper .about-cards .card-group {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .services-wrapper .about-cards .card-group2 {
+        margin-top: 0em;
+    }
+
+    .services-wrapper .about-cards .card {
+        border-radius: .75em;
+        padding: 1em 0.75em;
+        width: 100%;
+        height: 16.75em;
+        margin: auto;
+    }
+
+    .services-wrapper .about-cards .img-wrapper {
+        max-width: 2.66em;
+        max-height: 2.66em;
+    }
+
+    .services-wrapper .about-cards .card-title {
+        font-size: 1em;
+    }
+
+    .services-wrapper .about-cards .card-description {
+        font-size: .83333em;
+        line-height: 160%;
+    }
+
+    .fast-img-wrapper {
+        margin: auto;
+        max-width: 2.66667em;
+        max-height: 2.66667em;
+    }
+
+    #track-record-title {
+        font-size: 1.6666667em;
+        font-weight: 600;
+        margin-bottom: .3em;
+        letter-spacing: -0.033333em;
+    }
+
+    .about-desc {
+        font-size: 1.166667em;
+        line-height: normal;
+    }
+
+    .track-record-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.08333em 1.5em;
+        margin: auto;
+        margin-top: 2.5em;
+        gap: 2em;
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    .track-record-details .stats {
+        gap: 0em;
+        width: 7.08333em;
+        margin: auto;
+    }
+
+    .track-record-details .stats .number {
+        font-size: 2em;
+    }
+
+    .track-record-details .stats .stat {
+        font-size: 1em;
+        white-space: nowrap;
+    }
+
+    .appointment-card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.625em;
+        width: 90%;
+        margin: auto;
+        margin-top: 2.5em;
+        padding: 1.66667em 2.66667em;
+    }
+
+    .appointment-card .texts h4 {
+        font-size: 1.33em;
+        text-align: center;
+    }
+
+    .appointment-card .texts p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .appointment-card-btn {
+        font-size: 1.1666667em;
+    }
+
+    .about-stn {
+        padding-top: 7em;
+        margin-top: -2em;
+    }
+
+    .about-stn h3 {
+        font-size: 1.333333em;
+    }
+
+    .about-stn h3 #blue-lines {
+        position: absolute;
+        bottom: -62%;
+        left: -20%;
+        transform: scale(1.3);
+    }
+
+    .about-stn .flex-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0 4vw;
+        gap: 6.6667em;
+        margin-top: 1.8333333333em;
+    }
+
+    .about-stn .flex-container .placeholder {
+        min-width: 43%;
+        border-radius: 40px;
+        background: #F6F6F6;
+        height: 350px;
+    }
+
+    .about-stn .flex-container article {
+        font-size: 1.1666667em;
+        font-weight: 400;
+        text-align: center;
+        line-height: 200%;
+    }
+
+    .about-stn .flex-container a {
+        margin-top: 1.33333em;
+        font-size: 1.1666667em;
+        text-align: center;
+    }
+    .testimonials {
+        margin-top: 7em;
+    }
+    .testimonials h3 {
+        font-size: 1.666667em;
+        margin-top: 1.25em;
+        padding: 0 2.166667em;
+        text-align: center;
+    }
+
+    .testimonials .pre-header {
+        font-size: 1em;
+    }
 }

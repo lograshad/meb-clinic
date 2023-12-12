@@ -1,13 +1,16 @@
+.navbar-wrapper {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 .navbar-container {
     display: flex;
     justify-content: space-between;
     font-size: 32px;
     align-items: center;
     padding: 32px 4.5vw;
-    z-index: 999;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background-color: #fff;
     border-bottom: 1px solid #EAECF0;
@@ -36,4 +39,22 @@
 }
 .nav-button {
     font-size: .5em;
+}
+.mobile-wrapper {
+    display: none;
+}
+
+/* mobile view */
+@media (max-width: 851px) {
+    .navbar-container {
+        font-size: 24px;
+    }
+}
+@media (max-width: 700px) {
+    .mobile-wrapper {
+        display: flex;
+    }
+    .desktop-wrapper {
+        display: none;
+    }
 }
