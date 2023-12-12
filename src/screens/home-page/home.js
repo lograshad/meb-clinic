@@ -128,7 +128,7 @@ const HomeScreen = () => {
                             </div>
                             <div className="card">
                                 <div className="img-wrapper"><img src="/images/customer 1.png" alt="optometrists in Nigeria" /></div>
-                                <div className="card-title">We are highly experienced</div>
+                                <div className="card-title">Our services are you-centered</div>
                                 <p className="card-description">Above everything, we are all about you. Our eye care services are customized to fit your needs and accommodate your wants.</p>
                             </div>
                         </div>
@@ -151,20 +151,20 @@ const HomeScreen = () => {
                 <p className="about-desc">We have been in the business for over 10 years</p>
                 <div className="track-record-details">
                     <div className="stats">
-                        <div className="number">27+</div>
+                        <div className="number">30+</div>
                         <div className="stat">Years of Experience</div>
                     </div>
                     <div className="stats">
-                        <div className="number">1000+</div>
-                        <div className="stat">Customers</div>
+                        <div className="number">30000+</div>
+                        <div className="stat">Patients Treated</div>
                     </div>
                     <div className="stats">
-                        <div className="number">10+</div>
+                        <div className="number">10</div>
                         <div className="stat">Experienced doctors</div>
                     </div>
                     <div className="stats">
-                        <div className="number">2+</div>
-                        <div className="stat">Branches</div>
+                        <div className="number">2</div>
+                        <div className="stat">Locations</div>
                     </div>
                 </div>
                 <div className="appointment-card">
@@ -180,7 +180,9 @@ const HomeScreen = () => {
             <div className="about-stn" id="about">
                 <h3>About Us<span id="blue-lines"><img src="/images/blue-lines.png" alt="" /></span></h3>
                 <div className="flex-container">
-                    <div className="placeholder"></div>
+                    <div className="img-wrapper">
+                        <img src="/images/meb-paper.png" alt="" />
+                    </div>
                     <div className="text-content-container">
                         <article>MEB Eye Clinic is a family-owned optometry clinic with two-walk-in-locations in Lagos, the economic hub of Nigeria. Founded in 1993, Meb Eye Clinic was born out of thee resolve to provide the best quality eye care services in Nigeria.</article>
                         <Link to="/about_us">Learn More</Link>
@@ -191,10 +193,10 @@ const HomeScreen = () => {
                 <div className="pre-header">
                     Testimonials
                 </div>
-                <h3>What Our Customers have to say about us</h3>
+                <h3>What Our Patients have to say about us</h3>
                 <Reviews />
             </section>
-            <Footer/>
+            <Footer />
         </div>
     );
 }

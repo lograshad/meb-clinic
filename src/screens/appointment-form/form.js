@@ -88,8 +88,7 @@ const Form = () => {
                         errorMsg={touched.phoneNumber ? errors.phoneNumber : undefined}
                         placeholder="09045689321"
                     />
-                    {console.log(isValid)}
-                    <button type="submit" disabled={!isValid} className="form-btn">
+                    <div type="submit" disabled={!isValid} className="form-btn">
                         <ReactWhatsapp number="+2349063734237" message={`
             Hello, My name is ${nameW}
 I would like to book an appointment
@@ -98,7 +97,7 @@ Occupation - ${occupationW}
 Email - ${emailW}
 Phone Number - ${phoneNumberW}
 `}>Book an Appointment</ReactWhatsapp>
-                    </button>
+                    </div>
                 </form>
             </div>
             <Footer/>

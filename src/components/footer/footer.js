@@ -7,9 +7,9 @@ const Footer = () => {
             <div className="top">
                 <div className="footer-stns">
                     <div className="title">About us</div>
-                    <Link to="/about-us">Our team</Link>
-                    <Link to="/about-us">our vision</Link>
-                    <Link to="/about-us">our mission</Link>
+                    <Link to="/about_us">Our team</Link>
+                    <Link to="/about_us">our vision</Link>
+                    <Link to="/about_us">our mission</Link>
                 </div>
                 <div className="footer-stns">
                     <div className="title">Our Services</div>

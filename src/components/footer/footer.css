@@ -33,6 +33,7 @@
 
 .footer-container .top .footer-stns a {
     text-decoration: none;
+    text-transform: capitalize;
 }
 
 .footer-container .top .footer-stns ul {
@@ -84,4 +85,83 @@
     font-weight: 400;
     margin-top: 5vw;
     padding-bottom: 2vw;
+}
+
+/* media queries */
+
+@media (max-width: 915px) {
+    .footer-container {
+        font-size: 18px;
+        padding-top: 4.96667em;
+    }
+    
+    .footer-container .top {
+        display: block;
+        padding-left: 1.666667em;
+    }
+    
+    .footer-container .top .footer-stns {
+        width: fit-content;
+        margin-bottom: 5.3333em;
+    }
+    
+    .footer-container .top .footer-stns .title {
+        font-size: 1.33333em;
+        font-weight: 600;
+        margin-bottom: 2.6666667em;
+    }
+    
+    .footer-container .top .footer-stns a,
+    .footer-container .top .footer-stns p,
+    .footer-container .top .footer-stns li {
+        font-size: 1em;
+        margin-bottom: 1.6666667em
+    }
+    
+    .footer-container .top .footer-stns li {
+        gap: 1.333333em;
+    }
+    .footer-container .top .footer-stns li:nth-child(3) svg {
+        transform: scale(1);
+    }
+    .footer-container .top .footer-stns li:nth-child(3) {
+        padding-left: 0px;
+    }
+    
+    .footer-container .top .footer-stns li .address-group-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    .footer-container .middle {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 1.66667em;
+        margin-top: 6.666667em;
+        gap: 8.166667em;
+    }
+    
+    .footer-container .middle .logo-wrapper {
+        /* color: #FFF;
+        font-size: 1em;
+        line-height: 75%;
+        font-weight: 600; */
+    }
+    .footer-container .middle .social-icons-wrapper {
+        gap: 2em;
+    }
+    .footer-container .bottom {
+        width: fit-content;
+        margin: auto;
+        font-size: .675em;
+        font-weight: 400;
+        margin-top: 4em;
+        padding-bottom: 2vw;
+    }
+}
+@media (max-width: 500px) {
+    .footer-container {
+        font-size: 12px;
+    }
 }
