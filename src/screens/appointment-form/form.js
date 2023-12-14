@@ -89,7 +89,7 @@ const Form = () => {
                         placeholder="09045689321"
                     />
                     <div type="submit" disabled={!isValid} className="form-btn">
-                        <ReactWhatsapp number="+2349063734237" message={`
+                        <ReactWhatsapp number="+2348033235795" message={`
             Hello, My name is ${nameW}
 I would like to book an appointment
 Age - ${ageW} 

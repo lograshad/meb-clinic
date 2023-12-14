@@ -1,0 +1,52 @@
+.mobile-nav-container {
+    background-color: white;
+    width: 100vw;
+    height: 105vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    position: fixed;
+    top: 100vh;
+    box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.56);
+}
+
+.mobile-nav-container .top {
+    padding: 3.83em 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-nav-container .top .logo {
+    font-size: 1.33333em;
+}
+
+.mobile-nav-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 4.33333em;
+}
+
+.mobile-nav-container ul li a{
+    font-size: 1.33333em;
+    font-weight: 400;
+    color: #475467;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.mobile-nav-container ul li a:focus {
+    color: #1e88e5;
+}
+
+@media (max-width: 500px) {
+    .mobile-nav-container {
+        font-size: 12px;
+    }
+}

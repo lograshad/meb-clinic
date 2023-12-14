@@ -94,10 +94,14 @@
     margin-right: 2em;
 }
 
-.hero-stn .action-buttons button {
-    background: none;
+
+.hero-stn .action-buttons #contact-btn{
+    color: inherit;
+    text-decoration: none;
     border-radius: 5px;
     border: 1px solid #D0D5DD;
+    padding: 1em;
+    background: none;
     font-size: .5em;
     color: #344054;
     font-weight: 600;
@@ -500,7 +504,7 @@
     .pre-header {
         font-size: .6666667em;
         margin-bottom: -1.9em;
-        margin-top: 1.1111em;
+        margin-top: 3.1111em;
     }
 
 }
@@ -511,7 +515,7 @@
     .pre-header {
         font-size: 1em;
         margin-bottom: 0em;
-        margin-top: 3.5111em;
+        margin-top: 4.5111em;
     }
 }
 
@@ -536,11 +540,12 @@
         margin: auto;
         gap: 1.333em;
     }
-    .hero-stn .action-buttons .button-wrapper {
+    .hero-stn .action-buttons .button-wrapper,
+    .hero-stn .action-buttons #contact-btn {
         font-size: 1.16667em;
     }
     
-    .hero-stn .action-buttons button {
+    .hero-stn .action-buttons {
         font-size: 1.166667em;
         padding: 1em;
     }
