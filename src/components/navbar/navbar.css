@@ -33,7 +33,13 @@
     font-weight: 400;
     transition: 100ms;
 }
-.navbar-container .nav-items li a:hover {
+.navbar-container .nav-items li a:hover,
+.navbar-container .nav-items li a:focus,
+.navbar-container .nav-items li a:active {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.navbar-container .nav-items .highlight a {
     color: var(--primary-color);
     font-weight: 700;
 }
@@ -48,6 +54,12 @@
 @media (max-width: 851px) {
     .navbar-container {
         font-size: 24px;
+    }
+    .logo-wrapper {
+        width: 80px;
+    }
+    .logo-wrapper img {
+        width: 100%;
     }
 }
 @media (max-width: 700px) {

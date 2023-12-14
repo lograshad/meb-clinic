@@ -16,7 +16,7 @@ const HomeScreen = () => {
                         <div>Accessible, world class and</div>
                         <div>efficient
                             <span id="eye-care">eye care
-                                <span id="blue-lines"><img src="/images/blue-lines.png" alt="" /></span>
+                                <span id="blue-lines"><img src="/images/blue-lines.png" alt="blue lines" /></span>
                             </span>
                             services
                         </div>
@@ -29,15 +29,15 @@ const HomeScreen = () => {
                     </p>
                     <div className="action-buttons">
                         <Button child={"Book an appointment"} />
-                        <button>
-                            Contact us
-                        </button>
+                            <a href="tel:+2348033235795" id="contact-btn">
+                                Contact us
+                            </a>
                     </div>
                 </div>
                 <div className="hero-img-wrapper">
                     <div className="hero-slider">
-                        <img src="/images/hero-image.png" alt="meb eye clinic optometrists" />
-                        <img src="/images/hero-image.png" alt="meb eye clinic optometrists" />
+                        <img src="/images/hero-image.png" alt="meb eye clinic optometrists in lagos" />
+                        <img src="/images/hero-image.png" alt="meb eye clinic optometrists in lagos" />
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@ const HomeScreen = () => {
                     <h3>Our Services</h3>
                     <div className="about-desc">MEB Eye Clinic is highly-equipped to provide you with:</div>
                     <div className="flex-container">
-                        <div className="img-wrapper"><img src="/images/flyer.png" alt="" /></div>
+                        <div className="img-wrapper"><img src="/images/flyer.png" alt="best optometry services" /></div>
                         <div className="services-offered">
                             <ul>
                                 <li>
@@ -178,10 +178,10 @@ const HomeScreen = () => {
                 </div>
             </section>
             <div className="about-stn" id="about">
-                <h3>About Us<span id="blue-lines"><img src="/images/blue-lines.png" alt="" /></span></h3>
+                <h3>About Us<span id="blue-lines"><img src="/images/blue-lines.png" alt="blue lines" /></span></h3>
                 <div className="flex-container">
                     <div className="img-wrapper">
-                        <img src="/images/meb-paper.png" alt="" />
+                        <img src="/images/meb-paper.png" alt="meb eye clinic history" />
                     </div>
                     <div className="text-content-container">
                         <article>MEB Eye Clinic is a family-owned optometry clinic with two-walk-in-locations in Lagos, the economic hub of Nigeria. Founded in 1993, Meb Eye Clinic was born out of thee resolve to provide the best quality eye care services in Nigeria.</article>
