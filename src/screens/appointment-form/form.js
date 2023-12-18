@@ -8,11 +8,6 @@ import ReactWhatsapp from 'react-whatsapp';
 import Footer from "../../components/footer/footer";
 
 const Form = () => {
-    const [nameW, setName] = useState('');
-    const [ageW, setAge] = useState('');
-    const [occupationW, setOccupation] = useState('');
-    const [emailW, setEmail] = useState('');
-    const [phoneNumberW, setPhoneNumber] = useState('');
     const initialValues = {
         name: '',
         age: '',
@@ -20,17 +15,13 @@ const Form = () => {
         email: '',
         phoneNumber: '',
     }
-    const submitToRepresentative = (data) => {
-        setName(data?.name)
-        setAge(data?.age)
-        setOccupation(data?.occupation)
-        setEmail(data?.email)
-        setPhoneNumber(data?.phoneNumber)
-    }
     const { values, errors, touched, handleChange, handleSubmit, isValid } = useFormik({
         initialValues,
         validationSchema: BookAppointmentSchema,
-        onSubmit: (data) => submitToRepresentative(data),
+        onSubmit: (values) => {
+            // setData(data);
+            // submitToRepresentative(data)
+        },
         enableReinitialize: true,
     });
     return (
@@ -88,19 +79,18 @@ const Form = () => {
                         errorMsg={touched.phoneNumber ? errors.phoneNumber : undefined}
                         placeholder="09045689321"
                     />
-                    <div type="submit" disabled={!isValid} className="form-btn">
-                        <ReactWhatsapp number="+2348033235795" message={`
-            Hello, My name is ${nameW}
+                    {/* <div type="submit" disabled={!isValid} className="form-btn"> */}
+                    <ReactWhatsapp number="+2348033235795" type="submit"  disabled={!isValid} message={`
+            Hello, My name is ${values?.name}
 I would like to book an appointment
-Age - ${ageW} 
-Occupation - ${occupationW}
-Email - ${emailW}
-Phone Number - ${phoneNumberW}
-`}>Book an Appointment</ReactWhatsapp>
-                    </div>
+Age - ${values?.age} 
+Occupation - ${values?.occupation}
+Email - ${values?.email}
+Phone Number - ${values?.phoneNumber}
+`}>Book an appointment</ReactWhatsapp>
                 </form>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 }
