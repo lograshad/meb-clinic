@@ -29,9 +29,9 @@ const HomeScreen = () => {
                     </p>
                     <div className="action-buttons">
                         <Button child={"Book an appointment"} />
-                            <a href="tel:+2348033235795" id="contact-btn">
-                                Contact us
-                            </a>
+                        <a href="tel:+2348033235795" id="contact-btn">
+                            Contact us
+                        </a>
                     </div>
                 </div>
                 <div className="hero-img-wrapper">
@@ -184,7 +184,14 @@ const HomeScreen = () => {
                         <img src="/images/meb-paper.png" alt="meb eye clinic history" />
                     </div>
                     <div className="text-content-container">
-                        <article>MEB Eye Clinic is a family-owned optometry clinic with two-walk-in-locations in Lagos, the economic hub of Nigeria. Founded in 1993, Meb Eye Clinic was born out of thee resolve to provide the best quality eye care services in Nigeria.</article>
+                        <article>
+                        <p>
+                        MEB Eye Clinic is a family-owned optometry clinic with two-walk-in-locations in Lagos, the economic hub of Nigeria.
+                        </p>
+                        <p>
+                        Founded by Dr. Umemba Theophilus Chukwuemeka in 1993, Meb Eye Clinic experienced its fair share of humble beginnings. Dr. Umemba Theophilus established the clinic out of the resolve to provide the best quality eye care services in Nigeria.
+                        </p>
+                        </article>
                         <Link to="/about_us">Learn More</Link>
                     </div>
                 </div>
