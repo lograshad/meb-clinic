@@ -99,7 +99,7 @@
     margin-bottom: 1em;
     padding: 0;
 }
-.about-us-description article p {
+.about-us-description article .p {
     color: #475467;
     font-size: .5em;
     font-weight: 400;
@@ -188,7 +188,7 @@
     margin-bottom: 2.66667em;
     text-align: center;
 }
-.about-us-description article p {
+.about-us-description article .p {
     font-size: 1.166667em;
     text-align: center;
 }

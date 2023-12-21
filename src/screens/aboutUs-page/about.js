@@ -16,9 +16,9 @@ const About = () => {
                 <div className="history">
                     <div className="title">Brief History</div>
                     <p>
-                        We founded MEB Eye Clinic in 2010 and had a
-                        time to do eye care services with 10 doctors
-                        and have a lot to achieve in the next 10 years
+                        30+ years ago, an idea that would later become Meb Eye Clinic came into fruition. Up until now,
+                        the clinic has successfully provided 30+ years of excellent ocular eye care to 30,000+ patients
+                        in Nigeria.
                     </p>
                 </div>
             </div>
@@ -28,15 +28,31 @@ const About = () => {
                 </div>
                 <article>
                     <div className="title">About Us</div>
-                    <p>
-                        In our thirty-year existence with the expertise of 10-highly-experienced doctors, Meb Eye Clinic has provided over 30,000 patients with advanced diagnostic, correction, and masking (prosthetics) services for their eyes. We believe in impacting our community through active public health efforts and, as such, extend some of our eye care services to the public for free through regular outreach and eye screening tests. Meb Eye Clinic continues to provide optimum eye healthcare services through state-of-the-art diagnostic, treatment, and management options.
-                    </p>
+                    <div className="p">
+                        <p>
+                            In our thirty-year existence and with the expertise of 10 highly-experienced doctors, Meb Eye
+                            Clinic has provided over 30,000 patients with advanced diagnostic, correction, and masking
+                            (prosthetics) services for their eyes.
+                        </p>
+                        <p>
+                            We believe in impacting our community through active public health efforts and, as such, extend
+                            some of our eye care services to the public for free through regular outreach and eye screening
+                            tests.
+                        </p>
+                        <p>
+                            Meb Eye Clinic stays up-to-date with the latest optical and eyewear trends and advancements
+                            by featuring in local and international optical exhibitions.
+                            Currently managed by Dr. Mrs. Umemba Francisca Chibuogwu and Dr. Elvis Princewill
+                            Chukwuemka, Meb Eye Clinic continues to provide optimum eye healthcare services through
+                            state-of-the-art diagnostic, treatment, and management options.
+                        </p>
+                    </div>
                 </article>
             </div>
             <div className="vision-and-misssion-container">
-            <div className="img-wrapper">
-                <img src="/images/vision.png" alt="meb eye clinic mission and vision" />
-            </div>
+                <div className="img-wrapper">
+                    <img src="/images/vision.png" alt="meb eye clinic mission and vision" />
+                </div>
                 <div className="vision-and-misssion-cards">
                     <h2>our values</h2>
                     <div className="card">
@@ -71,7 +87,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 }
