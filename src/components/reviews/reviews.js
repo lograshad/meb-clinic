@@ -10,7 +10,7 @@ const reviewsData = [
     {
         review: "Choosing MEB Eye Clinic was the best decision I ever made for my eye care. The service is unparalleled, and I've been a loyal customer for over five years now. Not a single complaint – their professionalism and expertise make them stand out in the field.",
         name: "Tolulope Adeleke",
-        occupation: "Realtor, Lndmark Nigeria.",
+        occupation: "Realtor, Landmark Nigeria.",
         id: 2,
     },
     {

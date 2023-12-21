@@ -43,7 +43,7 @@ const HomeScreen = () => {
             </div>
             <section className="services-wrapper" id="services">
                 <div className="our-services-stn">
-                    <h3>Our Services</h3>
+                    <h3>Our services</h3>
                     <div className="about-desc">MEB Eye Clinic is highly-equipped to provide you with:</div>
                     <div className="flex-container">
                         <div className="img-wrapper"><img src="/images/flyer.png" alt="best optometry services" /></div>
@@ -116,8 +116,8 @@ const HomeScreen = () => {
                 </div>
                 <div className="services-stn">
                     <h3>
-                        <div>Why Choose</div>
-                        <div>Our Services?</div>
+                        <div>Why choose</div>
+                        <div>our services?</div>
                     </h3>
                     <div className="about-cards">
                         <div className="card-group card-group1">
@@ -147,8 +147,7 @@ const HomeScreen = () => {
                     </div>
                 </div>
                 <div className="fast-img-wrapper"><img src="/images/fasticon.png" alt="experienced eye care" /></div>
-                <h3 id="track-record-title">We have the track record</h3>
-                <p className="about-desc">We have been in the business for over 10 years</p>
+                <h3 id="track-record-title">We have a track record you can trust</h3>
                 <div className="track-record-details">
                     <div className="stats">
                         <div className="number">30+</div>
@@ -170,15 +169,15 @@ const HomeScreen = () => {
                 <div className="appointment-card">
                     <div className="texts">
                         <h4>Book an appointment today</h4>
-                        <p>Join over 1000 customers to testify to good eye service care today.</p>
+                        <p>Join our customers in testifying about our excellent eye care services.</p>
                     </div>
                     <div className="appointment-card-btn">
-                        <Button child={"Book an appointment"} />
+                        <Button child={"Get started"} />
                     </div>
                 </div>
             </section>
             <div className="about-stn" id="about">
-                <h3>About Us<span id="blue-lines"><img src="/images/blue-lines.png" alt="blue lines" /></span></h3>
+                <h3>About us<span id="blue-lines"><img src="/images/blue-lines.png" alt="blue lines" /></span></h3>
                 <div className="flex-container">
                     <div className="img-wrapper">
                         <img src="/images/meb-paper.png" alt="meb eye clinic history" />
@@ -200,7 +199,7 @@ const HomeScreen = () => {
                 <div className="pre-header">
                     Testimonials
                 </div>
-                <h3>What Our Patients have to say about us</h3>
+                <h3>What our patients have to say about us</h3>
                 <Reviews />
             </section>
             <Footer />

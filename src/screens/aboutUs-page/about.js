@@ -8,8 +8,8 @@ const About = () => {
             <Navbar />
             <div className="pre-header">About us</div>
             <h1>
-                <span>setting up standard</span>
-                <span>on eye care services</span>
+                <span>Setting the Standard for</span>
+                <span>Eye Care Services in Nigeria</span>
             </h1>
             <div className="image-header-container">
                 <div className="image-wrapper"><img src="/images/building.png" alt="clinic building" /></div>
