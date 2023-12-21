@@ -21,7 +21,6 @@
 
 .about-us-container h1 span {
     display: block;
-    text-transform: capitalize;
 }
 
 .about-us-container h1 span:nth-child(1) {
