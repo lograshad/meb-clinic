@@ -42,8 +42,7 @@ const About = () => {
                         <p>
                             Meb Eye Clinic stays up-to-date with the latest optical and eyewear trends and advancements
                             by featuring in local and international optical exhibitions.
-                            Currently managed by Dr. Mrs. Umemba Francisca Chibuogwu and Dr. Elvis Princewill
-                            Chukwuemka, Meb Eye Clinic continues to provide optimum eye healthcare services through
+                            Currently managed by Dr. Mrs. Umemba Francisca Chibuogwu and Dr. Elvis-Princewill Chukwuemeka Umemba, Meb Eye Clinic continues to provide optimum eye healthcare services through
                             state-of-the-art diagnostic, treatment, and management options.
                         </p>
                     </div>
